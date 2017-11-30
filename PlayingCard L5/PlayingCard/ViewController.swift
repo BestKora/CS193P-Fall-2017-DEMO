@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  PlayingCard
 //
-//  Created by CS193p Instructor  on 09/25/17.
-//  Copyright © 2017 Stanford University. All rights reserved.
+//  Created by CS193p Instructor on 10/9/17.
+//  Copyright © 2017 CS193p Instructor. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     var deck = PlayingCardDeck()
     
     override func viewDidLoad() {
@@ -20,5 +20,6 @@ class ViewController: UIViewController {
             }
         }
     }
+
 }
 

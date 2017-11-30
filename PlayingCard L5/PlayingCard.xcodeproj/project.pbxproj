@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA2A42B81FC0643A000DD075 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A42B71FC0643A000DD075 /* PlayingCardDeck.swift */; };
-		EAF1E2081FBF617300A747B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1E2071FBF617300A747B2 /* AppDelegate.swift */; };
-		EAF1E20A1FBF617300A747B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1E2091FBF617300A747B2 /* ViewController.swift */; };
-		EAF1E20D1FBF617300A747B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF1E20B1FBF617300A747B2 /* Main.storyboard */; };
-		EAF1E20F1FBF617300A747B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF1E20E1FBF617300A747B2 /* Assets.xcassets */; };
-		EAF1E2121FBF617300A747B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF1E2101FBF617300A747B2 /* LaunchScreen.storyboard */; };
-		EAF1E21A1FBF61B200A747B2 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1E2191FBF61B200A747B2 /* PlayingCard.swift */; };
+		ECC83D701F8C4E78007F751F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC83D6F1F8C4E78007F751F /* AppDelegate.swift */; };
+		ECC83D721F8C4E78007F751F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC83D711F8C4E78007F751F /* ViewController.swift */; };
+		ECC83D751F8C4E78007F751F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC83D731F8C4E78007F751F /* Main.storyboard */; };
+		ECC83D771F8C4E78007F751F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC83D761F8C4E78007F751F /* Assets.xcassets */; };
+		ECC83D7A1F8C4E78007F751F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC83D781F8C4E78007F751F /* LaunchScreen.storyboard */; };
+		ECC83D831F8C4EB6007F751F /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC83D821F8C4EB6007F751F /* PlayingCard.swift */; };
+		ECC83D851F8C510B007F751F /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC83D841F8C510B007F751F /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA2A42B71FC0643A000DD075 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
-		EAF1E2041FBF617300A747B2 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAF1E2071FBF617300A747B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAF1E2091FBF617300A747B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EAF1E20C1FBF617300A747B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EAF1E20E1FBF617300A747B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EAF1E2111FBF617300A747B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EAF1E2131FBF617300A747B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAF1E2191FBF61B200A747B2 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		ECC83D6C1F8C4E78007F751F /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC83D6F1F8C4E78007F751F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC83D711F8C4E78007F751F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC83D741F8C4E78007F751F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC83D761F8C4E78007F751F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC83D791F8C4E78007F751F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC83D7B1F8C4E78007F751F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC83D821F8C4EB6007F751F /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		ECC83D841F8C510B007F751F /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAF1E2011FBF617300A747B2 /* Frameworks */ = {
+		ECC83D691F8C4E78007F751F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,41 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EAF1E1FB1FBF617300A747B2 = {
+		ECC83D631F8C4E78007F751F = {
 			isa = PBXGroup;
 			children = (
-				EAF1E2061FBF617300A747B2 /* PlayingCard */,
-				EAF1E2051FBF617300A747B2 /* Products */,
+				ECC83D6E1F8C4E78007F751F /* PlayingCard */,
+				ECC83D6D1F8C4E78007F751F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EAF1E2051FBF617300A747B2 /* Products */ = {
+		ECC83D6D1F8C4E78007F751F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAF1E2041FBF617300A747B2 /* PlayingCard.app */,
+				ECC83D6C1F8C4E78007F751F /* PlayingCard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAF1E2061FBF617300A747B2 /* PlayingCard */ = {
+		ECC83D6E1F8C4E78007F751F /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				EAF1E20B1FBF617300A747B2 /* Main.storyboard */,
-				EAF1E2091FBF617300A747B2 /* ViewController.swift */,
-				EAF1E2191FBF61B200A747B2 /* PlayingCard.swift */,
-				EA2A42B71FC0643A000DD075 /* PlayingCardDeck.swift */,
-				EAF1E20E1FBF617300A747B2 /* Assets.xcassets */,
-				EAF1E21B1FBF61CE00A747B2 /* Supporting Files */,
-				EAF1E2131FBF617300A747B2 /* Info.plist */,
+				ECC83D711F8C4E78007F751F /* ViewController.swift */,
+				ECC83D731F8C4E78007F751F /* Main.storyboard */,
+				ECC83D821F8C4EB6007F751F /* PlayingCard.swift */,
+				ECC83D841F8C510B007F751F /* PlayingCardDeck.swift */,
+				ECC83D761F8C4E78007F751F /* Assets.xcassets */,
+				ECC83D811F8C4E8B007F751F /* Supporting Files */,
+				ECC83D7B1F8C4E78007F751F /* Info.plist */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
 		};
-		EAF1E21B1FBF61CE00A747B2 /* Supporting Files */ = {
+		ECC83D811F8C4E8B007F751F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAF1E2071FBF617300A747B2 /* AppDelegate.swift */,
-				EAF1E2101FBF617300A747B2 /* LaunchScreen.storyboard */,
+				ECC83D6F1F8C4E78007F751F /* AppDelegate.swift */,
+				ECC83D781F8C4E78007F751F /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -81,13 +81,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAF1E2031FBF617300A747B2 /* PlayingCard */ = {
+		ECC83D6B1F8C4E78007F751F /* PlayingCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAF1E2161FBF617300A747B2 /* Build configuration list for PBXNativeTarget "PlayingCard" */;
+			buildConfigurationList = ECC83D7E1F8C4E78007F751F /* Build configuration list for PBXNativeTarget "PlayingCard" */;
 			buildPhases = (
-				EAF1E2001FBF617300A747B2 /* Sources */,
-				EAF1E2011FBF617300A747B2 /* Frameworks */,
-				EAF1E2021FBF617300A747B2 /* Resources */,
+				ECC83D681F8C4E78007F751F /* Sources */,
+				ECC83D691F8C4E78007F751F /* Frameworks */,
+				ECC83D6A1F8C4E78007F751F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,26 +95,26 @@
 			);
 			name = PlayingCard;
 			productName = PlayingCard;
-			productReference = EAF1E2041FBF617300A747B2 /* PlayingCard.app */;
+			productReference = ECC83D6C1F8C4E78007F751F /* PlayingCard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EAF1E1FC1FBF617300A747B2 /* Project object */ = {
+		ECC83D641F8C4E78007F751F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "Michel Deiman";
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "CS193p Instructor";
 				TargetAttributes = {
-					EAF1E2031FBF617300A747B2 = {
-						CreatedOnToolsVersion = 9.1;
+					ECC83D6B1F8C4E78007F751F = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EAF1E1FF1FBF617300A747B2 /* Build configuration list for PBXProject "PlayingCard" */;
+			buildConfigurationList = ECC83D671F8C4E78007F751F /* Build configuration list for PBXProject "PlayingCard" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,56 +122,56 @@
 				en,
 				Base,
 			);
-			mainGroup = EAF1E1FB1FBF617300A747B2;
-			productRefGroup = EAF1E2051FBF617300A747B2 /* Products */;
+			mainGroup = ECC83D631F8C4E78007F751F;
+			productRefGroup = ECC83D6D1F8C4E78007F751F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAF1E2031FBF617300A747B2 /* PlayingCard */,
+				ECC83D6B1F8C4E78007F751F /* PlayingCard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EAF1E2021FBF617300A747B2 /* Resources */ = {
+		ECC83D6A1F8C4E78007F751F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF1E2121FBF617300A747B2 /* LaunchScreen.storyboard in Resources */,
-				EAF1E20F1FBF617300A747B2 /* Assets.xcassets in Resources */,
-				EAF1E20D1FBF617300A747B2 /* Main.storyboard in Resources */,
+				ECC83D7A1F8C4E78007F751F /* LaunchScreen.storyboard in Resources */,
+				ECC83D771F8C4E78007F751F /* Assets.xcassets in Resources */,
+				ECC83D751F8C4E78007F751F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EAF1E2001FBF617300A747B2 /* Sources */ = {
+		ECC83D681F8C4E78007F751F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF1E20A1FBF617300A747B2 /* ViewController.swift in Sources */,
-				EA2A42B81FC0643A000DD075 /* PlayingCardDeck.swift in Sources */,
-				EAF1E21A1FBF61B200A747B2 /* PlayingCard.swift in Sources */,
-				EAF1E2081FBF617300A747B2 /* AppDelegate.swift in Sources */,
+				ECC83D721F8C4E78007F751F /* ViewController.swift in Sources */,
+				ECC83D851F8C510B007F751F /* PlayingCardDeck.swift in Sources */,
+				ECC83D831F8C4EB6007F751F /* PlayingCard.swift in Sources */,
+				ECC83D701F8C4E78007F751F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EAF1E20B1FBF617300A747B2 /* Main.storyboard */ = {
+		ECC83D731F8C4E78007F751F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EAF1E20C1FBF617300A747B2 /* Base */,
+				ECC83D741F8C4E78007F751F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EAF1E2101FBF617300A747B2 /* LaunchScreen.storyboard */ = {
+		ECC83D781F8C4E78007F751F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EAF1E2111FBF617300A747B2 /* Base */,
+				ECC83D791F8C4E78007F751F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EAF1E2141FBF617300A747B2 /* Debug */ = {
+		ECC83D7C1F8C4E78007F751F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -236,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		EAF1E2151FBF617300A747B2 /* Release */ = {
+		ECC83D7D1F8C4E78007F751F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -286,32 +286,30 @@
 			};
 			name = Release;
 		};
-		EAF1E2171FBF617300A747B2 /* Debug */ = {
+		ECC83D7F1F8C4E78007F751F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLY879YR3Y;
 				INFOPLIST_FILE = PlayingCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.lecture.PlayingCard;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.instructor.PlayingCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EAF1E2181FBF617300A747B2 /* Release */ = {
+		ECC83D801F8C4E78007F751F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLY879YR3Y;
 				INFOPLIST_FILE = PlayingCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.lecture.PlayingCard;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.instructor.PlayingCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAF1E1FF1FBF617300A747B2 /* Build configuration list for PBXProject "PlayingCard" */ = {
+		ECC83D671F8C4E78007F751F /* Build configuration list for PBXProject "PlayingCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAF1E2141FBF617300A747B2 /* Debug */,
-				EAF1E2151FBF617300A747B2 /* Release */,
+				ECC83D7C1F8C4E78007F751F /* Debug */,
+				ECC83D7D1F8C4E78007F751F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAF1E2161FBF617300A747B2 /* Build configuration list for PBXNativeTarget "PlayingCard" */ = {
+		ECC83D7E1F8C4E78007F751F /* Build configuration list for PBXNativeTarget "PlayingCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAF1E2171FBF617300A747B2 /* Debug */,
-				EAF1E2181FBF617300A747B2 /* Release */,
+				ECC83D7F1F8C4E78007F751F /* Debug */,
+				ECC83D801F8C4E78007F751F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EAF1E1FC1FBF617300A747B2 /* Project object */;
+	rootObject = ECC83D641F8C4E78007F751F /* Project object */;
 }
