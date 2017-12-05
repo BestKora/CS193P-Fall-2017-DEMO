@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fsF-Pe-RAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-212" y="836"/>
+            <point key="canvasLocation" x="-788" y="878"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="tH9-SX-Ddp">
@@ -145,7 +145,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RfH-zB-0i1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1192" y="835.71428571428578"/>
+            <point key="canvasLocation" x="-1794" y="878"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
