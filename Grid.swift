@@ -154,7 +154,7 @@ struct Grid
                cellFrames.append(CGRect(origin: origin, size: cellSize))
                 origin.x += cellSize.width
                 if round(origin.x) > round(frame.maxX - cellSize.width) {
-                    origin.x = offset.dx
+                    origin.x = frame.origin.x + offset.dx
                     origin.y += cellSize.height
                 }
             }
