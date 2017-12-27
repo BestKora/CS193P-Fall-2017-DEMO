@@ -23,6 +23,10 @@ class ViewController: UIViewController {
     var emojiChoices = ["🎃", "👻", "🎃", "👻"]
     
     @IBAction func touchCard(_ sender: UIButton) {
+        for button in cardButtons {
+            button.setTitle("", for: UIControlState.normal)
+            button.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
+        }
         flipCount += 1
         if let cardNumber = cardButtons.index(of: sender) {
             flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
