@@ -59,6 +59,11 @@ class EmojiArtView: UIView, UIDropInteractionDelegate
         addInteraction(UIDropInteraction(delegate: self))
     }
     
+    private var font: UIFont {
+        return
+            UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(64.0))
+        
+    }
     // MARK: - UIDropInteractionDelegate
     
     func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
@@ -82,7 +87,8 @@ class EmojiArtView: UIView, UIDropInteractionDelegate
     func addLabel(with attributedString: NSAttributedString, centeredAt point: CGPoint) {
         let label = UILabel()
         label.backgroundColor = .clear
-        label.attributedText = attributedString
+        label.attributedText = attributedString.font != nil ? attributedString : NSAttributedString(string: attributedString.string,attributes: [.font:self.font])
+        //     label.attributedText = attributedText
         label.sizeToFit()
         label.center = point
         addEmojiArtGestureRecognizers(to: label)

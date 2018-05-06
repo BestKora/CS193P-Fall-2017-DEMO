@@ -78,7 +78,7 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate, UIScr
         get {
             // all we have to do here is call the proper init() in EmojiArt
             if let imageSource = emojiArtBackgroundImage {
-                let emojis = emojiArtView.subviews.flatMap { $0 as? UILabel }.flatMap { EmojiArt.EmojiInfo(label: $0) }
+                let emojis = emojiArtView.subviews.compactMap { $0 as? UILabel }.compactMap { EmojiArt.EmojiInfo(label: $0) }
                 switch imageSource {
                 case .remote(let url, _): return EmojiArt(url: url, emojis: emojis)
                 case .local(let imageData, _): return EmojiArt(imageData: imageData, emojis: emojis)
@@ -88,7 +88,7 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate, UIScr
         }
         set {
             emojiArtBackgroundImage = nil
-            emojiArtView.subviews.flatMap { $0 as? UILabel }.forEach { $0.removeFromSuperview() }
+            emojiArtView.subviews.compactMap { $0 as? UILabel }.forEach { $0.removeFromSuperview() }
             // the newValue EmojiArt might have raw image data
             // if it does, we'll grab it into imageData and image vars
             let imageData = newValue?.imageData

@@ -97,29 +97,35 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate, UIScr
         }
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView,
+                 cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if indexPath.section == 1 {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCell", for: indexPath)
+            let cell =
+                collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCell",
+                                                                   for: indexPath)
             if let emojiCell = cell as? EmojiCollectionViewCell {
                 let text = NSAttributedString(string: emojis[indexPath.item], attributes: [.font:font])
                 emojiCell.label.attributedText = text
             }
             return cell
         } else if addingEmoji {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiInputCell", for: indexPath)
+            let cell =
+                collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiInputCell",
+                                                                   for: indexPath)
             if let inputCell = cell as? TextFieldCollectionViewCell {
                 inputCell.resignationHandler = { [weak self, unowned inputCell] in
                     if let text = inputCell.textField.text {
-                        self?.emojis = (text.map { String($0) } + self!.emojis).uniquified
+                       self?.emojis = (text.map { String($0) } + self!.emojis).uniquified
                     }
                     self?.addingEmoji = false
                     self?.emojiCollectionView.reloadData()
                 }
             }
-            
             return cell
         } else {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AddEmojiButtonCell", for: indexPath)
+            let cell =
+                collectionView.dequeueReusableCell(withReuseIdentifier: "AddEmojiButtonCell",
+                                                                   for: indexPath)
             return cell
         }
     }
@@ -245,3 +251,12 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate, UIScr
         }
     }
 }
+/*
+ inputCell.resignationHandler = { [weak self, unowned inputCell] in
+ if let text = inputCell.textField.text {
+ self?.emojis = (text.map { String($0) } + self!.emojis).uniquified
+ }
+ self?.addingEmoji = false
+ self?.emojiCollectionView.reloadData()
+ }
+*/
